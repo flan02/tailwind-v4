@@ -1,7 +1,8 @@
 
 import './App.css'
-import CrashCourse from './examples/CrashCourse'
+import JsMastery from './examples/JsMastery'
 // import BasicExample from './examples/BasicExample'
+// import CrashCourse from './examples/CrashCourse'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   return (
     <div className=''>
       {/* <BasicExample /> */}
-      <CrashCourse />
+      {/* <CrashCourse /> */}
+      <JsMastery />
     </div>
   )
 }
