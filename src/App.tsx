@@ -1,13 +1,16 @@
 
 import './App.css'
-import ResponsiveDesign1 from './examples/ResponsiveDesign1'
+import CrashCourse from './examples/CrashCourse'
+// import BasicExample from './examples/BasicExample'
+
 
 function App() {
 
 
   return (
     <div className=''>
-      <ResponsiveDesign1 />
+      {/* <BasicExample /> */}
+      <CrashCourse />
     </div>
   )
 }

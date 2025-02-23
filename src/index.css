@@ -1,13 +1,41 @@
 @import "tailwindcss";
 
+/* css-based configuration */
+
 @theme {
   --breakpoint-*: initial;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1280px;
-  --color-twitter-blue: #1da1f2;
+  --amber-500: #ffcc00; /* old way custom class css*/
+  --alabaster-500: #e0e1dd;
+  --color-twitter-blue: #1da1f2; /* all use case color */
   --color-orange-500: #ffa500; /* override orange-500 */
+}
+
+@utility container {
+  padding: 20px;
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* External Library (Escaped asterics) */
+/* @source './node_modules/some-third-party-lib/*\*\/*.css' */
+
+/* npm install tailwindcss-animate */
+@plugin 'tailwindcss-animate';
+
+.bg-amber {
+  background-color: var(--amber-500); /* old way */
+}
+
+.text-alabaster {
+  color: var(--alabaster-500);
+}
+
+.text-amber {
+  color: var(--amber-500);
 }
 
 :root {
@@ -48,7 +76,7 @@ h1 {
   line-height: 1.1;
 }
 
-button {
+/* button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -58,16 +86,17 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-}
-button:hover {
+} */
+
+/* button:hover {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
     background-color: #ffffff;
@@ -78,4 +107,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
