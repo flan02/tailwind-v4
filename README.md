@@ -38,3 +38,5 @@ color: oklch(70% 0.25 220); /* (L,C,H) */
 ```
 
 ### new componentes based on tailwind v4 soon
+
+### new utilities added
