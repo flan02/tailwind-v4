@@ -37,6 +37,7 @@ OKLCH is considered better than RGB and HSL for color manipulation.
 color: oklch(70% 0.25 220); /* (L,C,H)
 ```
 
-### new componentes based on tailwind v4 soon
+### New utilities added
+Beautiful UI components built with Tailwind CSS and React.
 
-### new utilities added
+[official website](https://originui.com/)
