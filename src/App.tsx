@@ -1,8 +1,14 @@
 
 import './App.css'
-import JsMastery from './examples/JsMastery'
+
+// * 2024
+// import JsMastery from './examples/JsMastery'
 // import BasicExample from './examples/BasicExample'
 // import CrashCourse from './examples/CrashCourse'
+
+// * 2025
+import CodingInFlow from './examples/CodingInFlow'
+
 
 
 function App() {
@@ -12,7 +18,8 @@ function App() {
     <div className=''>
       {/* <BasicExample /> */}
       {/* <CrashCourse /> */}
-      <JsMastery />
+      {/* <JsMastery /> */}
+      <CodingInFlow />
     </div>
   )
 }
