@@ -1,14 +1,16 @@
 
 import './App.css'
+import JoshTriedCoding from './examples/JoshTriedCoding'
 
 // * 2024
 // import JsMastery from './examples/JsMastery'
 // import BasicExample from './examples/BasicExample'
 // import CrashCourse from './examples/CrashCourse'
 
-// * 2025
-import CodingInFlow from './examples/CodingInFlow'
+// * 01/2025
+// import CodingInFlow from './examples/CodingInFlow'
 
+// * 12/2025
 
 
 function App() {
@@ -19,7 +21,8 @@ function App() {
       {/* <BasicExample /> */}
       {/* <CrashCourse /> */}
       {/* <JsMastery /> */}
-      <CodingInFlow />
+      {/* <CodingInFlow /> */}
+      <JoshTriedCoding />
     </div>
   )
 }
